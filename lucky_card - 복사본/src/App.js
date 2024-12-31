@@ -65,9 +65,7 @@ function App() {
                     >
                         부적 저장하기
                     </a>
-                    <button onClick={shareToInstagram} className="instagram-button">
-                        스토리로 공유
-                    </button>
+                   
                     <button onClick={() => setSelectedCard(null)}>
                         다시 시도하기
                     </button>
