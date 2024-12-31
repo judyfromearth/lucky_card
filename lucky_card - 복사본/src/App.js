@@ -47,7 +47,7 @@ function App() {
                             showLuckyCard(luckyNumber);
                         }}
                     >
-                        행운 보기
+                        행운<br /> 보기
                     </button>
                 </div>
             ) : (
