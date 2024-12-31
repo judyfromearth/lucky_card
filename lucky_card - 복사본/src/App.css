@@ -96,8 +96,7 @@ button.round-button:hover {
 }
 
 /* 버튼을 한 줄에 배치 */
-.download-button,
-.instagram-button {
+.download-button {
   display: inline-block; /* 한 줄에 배치 */
   margin: 10px 10px; /* 버튼 간격 */
   padding: 10px 30px;
@@ -120,15 +119,6 @@ button.round-button:hover {
   transform: scale(1.05);
 }
 
-.instagram-button {
-  background-color: #E1306C;
-  color: white;
-}
-
-.instagram-button:hover {
-  background-color: #B92D5D;
-  transform: scale(1.05);
-}
 
 @media (max-width: 768px) {
   .input-page, .result-page {
